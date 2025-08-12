@@ -30,7 +30,15 @@ const socialMediaLinks = [
     backgroundColor: "#1DA1F2",
   },
 ];
-
+const aboutMe = {
+  title: "About Me",
+  description:
+    "const aboutMe = {
+  title: "About Me",
+  description:
+    "I’m A'laa Kamal, an aspiring Machine Learning Engineer passionate about creating AI-driven solutions that address real-world challenges. With experience in climate awareness projects, teaching programming, and content creation, I combine technical expertise with a strong commitment to social impact.",
+};",
+};
 const skills = {
   data: [
     {
@@ -132,11 +140,7 @@ const projects = {
   ],
 };
 
-const aboutMe = {
-  title: "About Me",
-  description:
-    "I’m A'laa Kamal, an aspiring Machine Learning Engineer passionate about creating AI-driven solutions that address real-world challenges. With experience in climate awareness projects, teaching programming, and content creation, I combine technical expertise with a strong commitment to social impact.",
-};
+
 
 const certifications = {
   title: "Certifications",

@@ -1,11 +1,11 @@
-/* Change this file to customize your portfolio */
+/* ======== PERSONALIZED PORTFOLIO FOR A'LAA KAMAL ======== */
 
 const greeting = {
   title: "Hi, I'm A'laa Kamal",
   logo_name: "AlaaKamal",
   subTitle:
-    "Aspiring Machine Learning Engineer | Applied AI & Problem-Solving Enthusiast | Passionate about using technology for social good 🚀",
-  resumeLink: "https://link-to-your-resume.pdf", // add your resume link
+    "Aspiring Machine Learning Engineer | AI & Problem-Solving Enthusiast | Passionate about leveraging technology for social good 🚀",
+  resumeLink: "https://link-to-your-resume.pdf", // Replace with your resume link
   portfolio_repository: "https://github.com/AlaaKamalFaroq/developerFolio",
   githubProfile: "https://github.com/AlaaKamalFaroq",
 };
@@ -19,13 +19,13 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/alaa-kamal-faroq", // add your LinkedIn link
+    link: "https://www.linkedin.com/in/a-laa-kamal-3b6baa2b2",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/yourusername",
+    link: "https://twitter.com/yourusername", // Optional
     fontAwesomeIcon: "fa-twitter",
     backgroundColor: "#1DA1F2",
   },
@@ -37,9 +37,9 @@ const skills = {
       title: "Artificial Intelligence & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Building and experimenting with AI tools for solving real-world problems",
-        "⚡ Applying ML models to small datasets for climate change and community development projects",
-        "⚡ Understanding model evaluation metrics for classification problems",
+        "⚡ Developing AI models for classification, regression, and prediction tasks",
+        "⚡ Applying data preprocessing, feature engineering, and model evaluation techniques",
+        "⚡ Working with ML libraries such as TensorFlow, scikit-learn, and Pandas",
       ],
       softwareSkills: [
         {
@@ -52,14 +52,20 @@ const skills = {
           fontAwesomeClassname: "logos:tensorflow",
           style: { backgroundColor: "transparent" },
         },
+        {
+          skillName: "scikit-learn",
+          fontAwesomeClassname: "logos:scikit-learn",
+          style: { backgroundColor: "transparent" },
+        },
       ],
     },
     {
       title: "Problem Solving & Algorithms",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Practicing C++, Python, and Dart through problem-solving platforms",
-        "⚡ Understanding data structures, algorithms, and optimization",
+        "⚡ Solving competitive programming challenges in C++, Python, and Dart",
+        "⚡ Understanding algorithms, data structures, and optimization techniques",
+        "⚡ Applying mathematical foundations including probability, statistics, and linear algebra",
       ],
       softwareSkills: [
         {
@@ -74,22 +80,54 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Web Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive websites using HTML, CSS, JavaScript",
+        "⚡ Deploying projects using Netlify and GitHub Pages",
+        "⚡ Integrating APIs and handling JSON data",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "vscode-icons:file-type-html",
+          style: { backgroundColor: "transparent" },
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "vscode-icons:file-type-css",
+          style: { backgroundColor: "transparent" },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: { backgroundColor: "transparent" },
+        },
+      ],
+    },
   ],
 };
 
 const projects = {
   data: [
     {
-      name: "Climate Change Awareness Website",
-      url: "https://github.com/AlaaKamalFaroq/climate-change-awareness",
+      name: "ML Model for Early Disease Detection",
+      url: "",
       description:
-        "An interactive website built with HTML, CSS, and JavaScript to raise awareness about climate change in Africa.",
+        "Machine learning project using medical datasets to predict diseases like diabetes or heart disease. Focus on data preprocessing, model training, and evaluation.",
     },
     {
-      name: "AI Tools for Low-Resource Societies",
-      url: "https://github.com/AlaaKamalFaroq/ai-low-resource",
+      name: "AI-Powered Resume Screening Tool",
+      url: "",
       description:
-        "A project exploring AI tools that can operate in areas with limited infrastructure.",
+        "NLP-based tool that matches resumes to job descriptions using TF-IDF or embeddings. Demonstrates applied natural language processing skills.",
+    },
+    {
+      name: "Climate Impact Prediction Model",
+      url: "",
+      description:
+        "Regression/classification model predicting environmental indicators such as air quality or rainfall using open datasets.",
     },
   ],
 };
@@ -97,7 +135,25 @@ const projects = {
 const aboutMe = {
   title: "About Me",
   description:
-    "I’m A'laa Kamal, an aspiring Machine Learning Engineer passionate about using AI and problem-solving to create impactful, low-cost solutions for developing communities. I’ve participated in climate change programs, taught programming, and contributed to enriching Arabic programming content. My ultimate goal is to integrate technology with social good.",
+    "I’m A'laa Kamal, an aspiring Machine Learning Engineer passionate about creating AI-driven solutions that address real-world challenges. With experience in climate awareness projects, teaching programming, and content creation, I combine technical expertise with a strong commitment to social impact.",
 };
 
-export { greeting, socialMediaLinks, skills, projects, aboutMe };
+const certifications = {
+  title: "Certifications",
+  items: [
+    {
+      name: "AI Career Essentials",
+      image: "cert1.png", // Upload to public/images
+    },
+    {
+      name: "Google Introduction to UX/UI Design",
+      image: "cert2.png",
+    },
+    {
+      name: "Learn How to Learn - Coursera",
+      image: "cert3.png",
+    },
+  ],
+};
+
+export { greeting, socialMediaLinks, skills, projects, aboutMe, certifications };
